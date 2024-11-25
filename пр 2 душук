@@ -1,30 +1,30 @@
-hello = "Hello World" #створення зміної
-name = "Artem" #створення зміної
-lastname = "<Dushuk" #створення зміної
-age = 16 #створення зміної
+hello = "Hello World" #створювання змінних
+name = "Artem" 
+lastname = "<Dushuk" 
+age = 16 
 
-print(hello) #Виведе значення змінної
-print(name) #Виведе значення змінної
-print(lastname) #Виведе значення змінної
-print(age) #Виведе значення змінної
+print(hello) #Виводить значення змінної
+print(name) 
+print(lastname) 
+print(age) 
 
-print(type(hello)) #Виведе значення змінної
-print(type(name)) #Виведе значення змінної
-print(type(lastname)) #Виведе значення змінної
-print(type(age)) #Виведе значення змінної
+print(type(hello)) 
+print(type(name)) 
+print(type(lastname)) 
+print(type(age)) 
 
 count_int = 0 #Лічильник для підрахунку цілих чисел (тип int).
-count_str = 0 #Лічильник для підрахунку рядків (тип str)
-count_bool = 0 #Лічильник для підрахунку булевих значень (True або False, тип bool).
-count_set = 0 #Лічильник для підрахунку множин (тип set).
-count_list = 0 #Лічильник для підрахунку списків (тип list).
-count_tuple = 0 #Лічильник для підрахунку кортежів (тип tuple).
-count_float = 0 #Лічильник для підрахунку чисел з плаваючою крапкою (тип float).
+count_str = 0 #Лічильник для рядків (тип str)
+count_bool = 0 #Лічильник для булевих значень (True або False, тип bool).
+count_set = 0 #Лічильник для множин (тип set).
+count_list = 0 #Лічильник для списків (тип list).
+count_tuple = 0 #Лічильник для кортежів (тип tuple).
+count_float = 0 #Лічильник для чисел з плаваючою крапкою (тип float).
 lst_notnull = [] 
 max_value = -1 
 types_count = {str, int, bool, set, list, tuple, float}#список зміних
 lst_count_types = [count_set, count_float, count_tuple, count_list, count_bool, count_str, count_int]#список лічильників
-lst_name_type = ['set', 'float', 'tuple', 'list', 'bool', str, int]#список назв
+lst_name_type = ['set', 'float', 'tuple', 'list', 'bool', str, int]#список назвів
 lst = [name, lastname, age]
 for item in lst: #цикл що рахує  кількість типів
     if type(item) == int:
@@ -33,7 +33,7 @@ for item in lst: #цикл що рахує  кількість типів
         lst_count_types[-2] += 1
 
 for item in lst_count_types:
-    if item != 0:#цикл кий перевіряє чи не є значення нульовим
+    if item != 0:#цикл який перевіряє чи не є значення нульовим
         lst_notnull.append(item) #це метод списку, який додає новий елемент у кінець списку.
     if len(lst_notnull) == 0: #перевіряє чи є список порожній
         print('Good')
@@ -51,7 +51,7 @@ print(lst_name_type[inn])#Виводить значення елемента з 
 
 for item in lst:
     if type(item) != lst_name_type[inn]:
-        lst.remove(item)#прибирає тип який найменше зустрічається в списку
+        lst.remove(item)#прибирає найменший тип зустрічається в списку
 
 # if count_str==count_int:
 #     print("good")
