@@ -13,13 +13,13 @@ print(type(name))
 print(type(lastname)) 
 print(type(age)) 
 
-count_int = 0 #Лічильник для підрахунку цілих чисел (тип int).
-count_str = 0 #Лічильник для рядків (тип str)
-count_bool = 0 #Лічильник для булевих значень (True або False, тип bool).
-count_set = 0 #Лічильник для множин (тип set).
-count_list = 0 #Лічильник для списків (тип list).
-count_tuple = 0 #Лічильник для кортежів (тип tuple).
-count_float = 0 #Лічильник для чисел з плаваючою крапкою (тип float).
+count_int = 0 #Лічильник 
+count_str = 0 #Лічильник
+count_bool = 0 #Лічильник
+count_set = 0 #Лічильник 
+count_list = 0 #Лічильник
+count_tuple = 0 #Лічильник 
+count_float = 0 #Лічильник 
 lst_notnull = [] 
 max_value = -1 
 types_count = {str, int, bool, set, list, tuple, float}#список зміних
